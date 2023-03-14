@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+:root {
+    --size: 1rem;
+    --half-size: 0.5rem;
+    --length-h: 2rem;
+    --length-v: 3rem;
+    --segment-color: black;
+    --opacity: 0.1;
+}
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
